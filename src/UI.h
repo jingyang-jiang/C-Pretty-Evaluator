@@ -1,0 +1,14 @@
+#pragma once
+#include <iostream>
+#include "Comment.h"
+#include "Documentation.h"
+#include "Indentation.h"
+#include "Modularity.h"
+#include "test.h"
+#include "VarName.h"
+void help();
+void singleSourceFile();
+void noDoc();
+void noTest();
+void noVars();
+void evaluate();
